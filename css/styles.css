@@ -1,0 +1,295 @@
+html{
+    overflow-x: hidden;
+}
+
+body{
+    
+    
+    background-repeat: repeat;
+    background-color: lavender;
+    max-width: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/inspiration-geometry.png");
+   
+}
+
+nav{
+   
+    text-align: right;
+    background-color: midnightblue;
+    position: relative;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    
+    top:0;
+   
+}
+
+a{
+    text-decoration: none;
+}
+
+.all-nav-links{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: 'Monoton', cursive;
+    text-align: center;
+    display: none;
+}
+
+.nav-ham-container{
+    cursor: pointer;
+   
+}
+
+.nav-href{
+    color:white;
+    padding: 10px;
+}
+
+#nav-ham-btn{
+    width: 40px;  
+}
+
+hr{
+    width: 40px;
+    display: block;
+    
+    color: rgb(60, 0, 128);
+    margin: 25px auto;
+    opacity: 1;
+    border-radius: 10px;
+}
+
+
+#intro{
+    padding:120px 60px;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png"), linear-gradient(to top, #5f72bd 0%, #9b23ea 100%);
+    text-align: center;
+    
+}
+
+
+.header{
+    font-family: 'Monoton', cursive;
+    color: white;
+    border-bottom: 1px solid white;
+    padding-bottom: 10px;
+}
+
+#intro-welcome{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+#btn-cv{
+    margin-top: 50px;
+}
+
+#about-me{
+    text-align: center;
+    padding: 0 40px 40px 40px;
+}
+
+.about-me-info{
+    
+    margin-bottom: 50px;
+    box-shadow: 5px 5px 7px -4px black;
+    padding: 40px;
+    color: white;
+    border-radius: 10px;
+    background-color: mintcream;
+    background: url("https://www.transparenttextures.com/patterns/black-paper.png"), linear-gradient(to right, #0575e6, #021b79); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+
+span{
+    font-family: 'Permanent Marker', cursive;
+    display: block;
+    margin: 10px 0 0 0;
+}
+
+.center-col{
+    margin:auto;
+}
+
+#about-me-para{
+    font-family: 'Roboto', sans-serif;
+    text-align: justify;
+    margin-top: 25px;
+    
+}
+
+#about-me-title{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.service{
+    text-align: center;
+    padding: 25px;
+    color: white;
+    border-radius: 10px;
+    margin: 10px auto;
+    -webkit-box-shadow: 5px 5px 7px -4px black; 
+box-shadow: 5px 5px 7px -4px black;
+width: 95%;
+height: 95%;
+
+}
+
+.service-title{
+    font-family: 'Poppins', sans-serif;
+    border-bottom: 1px solid white;
+}
+
+
+
+.service-img{
+    width: 75px;
+    display: block;
+    margin:  25px auto;
+    border: 2px solid white;
+    border-radius: 50%;
+    padding: 2px;
+
+}
+
+.service-para{
+    font-family: 'Roboto', sans-serif;
+ padding: 15px;
+ 
+   
+    
+}
+
+#service-1{
+
+background: #11998e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #38ef7d, #11998e);  /* Chrome 10-25, Safari 5.1-6 */
+background: url("https://www.transparenttextures.com/patterns/shattered-dark.png"), linear-gradient(to right, #38ef7d, #11998e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    
+}
+
+#service-2{
+    background: #4e54c8;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);  /* Chrome 10-25, Safari 5.1-6 */
+    background: url("https://www.transparenttextures.com/patterns/shattered-dark.png"), linear-gradient(to right, #8f94fb, #4e54c8); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+#service-3{
+    background: #1488CC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2B32B2, #1488CC);  /* Chrome 10-25, Safari 5.1-6 */
+background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png"), linear-gradient(to right, #2B32B2, #1488CC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+
+#projects{
+padding: 40px;
+text-align: center;
+background: url("https://www.transparenttextures.com/patterns/gplay.png"), linear-gradient(to right, #24c6dc, #514a9d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+color: white;
+
+
+}
+
+.project-card{
+
+height: 100%;
+padding: 40px;
+border-radius: 10px;
+/* border: 2px solid white; */
+
+
+}
+
+
+
+
+.project-title{
+    font-family: 'Poppins', sans-serif;
+    margin: 10px 0;
+}
+
+.project-img{
+    width:100%;
+    border: 2px solid white;
+}
+
+.project-details{
+    height:100%;
+}
+
+.project-btn{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    -webkit-box-shadow: 5px 5px 7px -4px midnightblue; 
+box-shadow: 5px 5px 7px -4px midnightblue;
+font-family: 'Abel', sans-serif;
+width:100%;
+}
+
+.project-btn:hover{
+    background-color: white;
+    color: midnightblue;
+    -webkit-box-shadow: none; 
+    box-shadow: none;
+}
+
+
+#contact{
+    text-align: center;
+    padding: 40px;
+}
+
+#contact-title{
+    font-family: 'Poppins', sans-serif;
+    color: rebeccapurple;
+}
+
+#contact-para{
+    margin-top: 25px;
+    color: rgb(34, 33, 34);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+.contact-img{
+    width: 50px;
+    margin: 10px;
+}
+
+
+.gen-btn{
+    display: block;
+    margin: auto;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: midnightblue;
+    border: none;
+    color: white;
+    -webkit-box-shadow: 5px 5px 7px -4px midnightblue; 
+box-shadow: 5px 5px 7px -4px midnightblue;
+font-family: 'Abel', sans-serif;
+}
+
+.gen-btn:hover{
+    background-color: white;
+    color: midnightblue;
+    -webkit-box-shadow: none; 
+    box-shadow: none;
+    
+
+}
