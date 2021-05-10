@@ -22,6 +22,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
 
     </head>
 
@@ -35,9 +36,9 @@
     </div>
 
 <ul class="all-nav-links">
-    <a class="nav-href" href=""><li>About</li></a>
-    <a class="nav-href" href=""><li>Projects</li></a>
-    <a class="nav-href" href=""><li>Contact</li></a>
+    <a class="nav-href" href="#about-me"><li>About</li></a>
+    <a class="nav-href" href="#projects"><li>Projects</li></a>
+    <a class="nav-href" href="#contact"><li>Contact</li></a>
 </ul>
 </nav>
     <section id ="intro">
@@ -56,18 +57,29 @@
   
 <section id ="about-me">
     <div class="row">
-        <div class="col-md-6 center-col">
-    <div class="about-me-info">
+        
+        <div class="col-md-4">
+    <!-- <div class="about-me-info">
     <img class="service-img" src="images/information.svg" alt="">
-<h2 id="about-me-title">About Me</h2>
-<p id="about-me-para">Welcome to my portfolio webpage. Let me tell you a little about myself... I graduated from DCU in 2014 and have been working in both Dublin and Toronto for the passed few years. I recently moved home to Dublin where I am now working in an IT role. I am looking forward to starting a new job as a web developer. Please take a look at the projects I have created. </p>
-</div>
-</div>
-</div>
+<h2 class="header">About Me</h2>
+<p id="about-me-para">Welcome to my portfolio webpage. Let me tell you a little about myself... I graduated from DCU in 2014 and have been working in both Dublin and Toronto for the passed few years. <br><br>I recently moved home to Dublin where I am now working in an IT role. I am looking forward to starting a new job as a web developer. Please take a look at the projects I have created. </p>
+</div> -->
+<img class="about-me-img" src="images/person.svg" alt="">
 
+</div>
+<div class="col-md-4">
+    <div class="about-me-graphic">
+<h1 class="header-color">About Me</h1>
+<p>Welcome to my portfolio webpage. Let me tell you a little about myself... I graduated from DCU in 2014 and have been working in both Dublin and Toronto for the passed few years. <br><br>I recently moved home to Dublin where I am now working in an IT role. I am looking forward to starting a new job as a web developer. Please take a look at the projects I have created.</p>
+</div>
+<hr>
+</div>
+</section>
+
+<div id="services">
 <div class="row">
 
-<div class="col-md-6 col-lg-4">
+<div class="col-md-6 col-lg-3">
 <div id ="service-1" class="service">
     <img class="service-img" src="images/html.svg" alt="">
 <h2 class="service-title">HTML, CSS and JavaScript</h2>
@@ -75,7 +87,7 @@
 <p class="service-para">Proficient in designing websites in HTML, CSS and JavaScript as well as other frameworks such as Bootstrap, Node.js</p>
 </div>
 </div>
-<div class="col-md-6 col-lg-4">
+<div class="col-md-6 col-lg-3">
 <div id ="service-2" class="service">
     <img class="service-img" src="images/responsive.svg" alt="">
 <h2 class="service-title">Responsive Design</h2>
@@ -83,7 +95,7 @@
 <p class="service-para">Devloping websites for all different devices from mobiles to tablets to laptops. Websites will look good on any device.</p>
 </div>
 </div>
-<div class="col-md-6 col-lg-4">
+<div class="col-lg-3">
 <div id ="service-3" class="service">
     <img class="service-img" src="images/online-course.svg" alt="">
 <h2 class="service-title">Self Taught Developer</h2>
@@ -92,8 +104,8 @@
 </div>
 </div>
 </div>
+</div>
 
-</section>
 <hr>
     <section id ="projects">
        <h2 class="header">Projects</h2>
@@ -101,10 +113,11 @@
            <div class="col-md-4">
         <div class="project-card">
             <div class="project-details">
-                <img class="project-img" src="images/ghost-chat.JPG" alt="">
-                 <h3 class="project-title">
+                <h3 class="project-title">
                     Ghost Chat - Web app
                  </h3>
+                <img class="project-img" src="images/ghost-chat.jpg" alt="">
+                
         </div>
         <button class="project-btn">View project</button>
     </div>
@@ -112,10 +125,11 @@
         <div class="col-md-4">
         <div class="project-card">
             <div class="project-details">
-                <img class="project-img" src="images/become.JPG" alt="">
                 <h3 class="project-title">
                     Become - Online Store
                  </h3>
+                <img class="project-img" src="images/become.jpg" alt="">
+                
         </div>
         <button class="project-btn">View project</button>
     </div>
@@ -123,11 +137,12 @@
         <div class="col-md-4">
         <div class="project-card">
             <div class="project-details">
-                <img class="project-img" src="images/reddit-api.JPG" alt="">
-               
                 <h3 class="project-title">
                     Reddit Gallery - API 
                  </h3>
+                <img class="project-img" src="images/reddit-api.jpg" alt="">
+               
+                
              
         </div>
         <button class="project-btn">View project</button>
@@ -136,11 +151,10 @@
     <div class="col-md-4">
         <div class="project-card">
             <div class="project-details">
-                <img class="project-img" src="images/countdown.JPG" alt="">
                 <h3 class="project-title">
                     Countdown - JavaScript Game
                  </h3>
-            
+                <img class="project-img" src="images/countdown.jpg" alt="">
         </div>
         <button class="project-btn">View project</button>
         </div>
@@ -148,10 +162,11 @@
     <div class="col-md-4">
         <div class="project-card">
             <div class="project-details">
-                <img class="project-img" src="images/countdown.JPG" alt="">
                 <h3 class="project-title">
                     Portfolio
                  </h3>
+                <img class="project-img" src="images/countdown.jpg" alt="">
+               
             
         </div>
         <button class="project-btn">View project</button>
@@ -159,14 +174,22 @@
         </div>
     </div>
     </section>
+    <hr>
     <section id ="contact">
+        <div class="row">
+            <div class="col-md-4">
+        <h1 id="contact-main-title" class="header">Contact</h1>
         <h2 id="contact-title">Get in touch!</h2>
         <p id="contact-para">If you wish to get in touch please send me a message from the following email address: cogwebdesigns@gmail.com or check me out on LinkedIn or Github.</p>
         <div class="contact-img-holder">
             <img class="contact-img"src="images/linkedin.svg" alt="">
             <img class="contact-img"src="images/github.svg" alt="">
         </div>
+
+    </div>
+    </div>
     </section>
+    <hr>
     
    <!-- Latest compiled and minified JavaScript -->
  
